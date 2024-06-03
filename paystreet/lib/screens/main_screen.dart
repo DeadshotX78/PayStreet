@@ -230,8 +230,8 @@ class MainScreen extends StatelessWidget {
               tileColor: Colors.purple.shade200,
               iconColor: Colors.purple,
             ),
-            TransactionTile(
-              amountText: "\+\$2,800.00",
+            const TransactionTile(
+              amountText: "+\$2,800.00",
               text: "Transfer",
               subtitle: "10 May 2023, 10:45",
               icon: Icons.compare_arrows_rounded,
